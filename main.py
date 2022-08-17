@@ -12,3 +12,4 @@ print('anak membeli 6 butir telur')
 print('anak pulang ke rumah')
 print('anak menyerahkan hasil belanjaan kepada ibu')
 
+# done
