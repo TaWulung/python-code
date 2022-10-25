@@ -1,22 +1,24 @@
 # belajar sekuensial
-print('ibu berkata "tolong belikan 1 botol susu, kalau ada telur beli 6 telur".')
-print('anak berkata "OK".')
-print('anak pergi ke kios')
-print('anak bertanya di pemilik kios "Apakah ada susu?".')
-print('pemilik toko menjawab, "ada".')
+print('mom said "please, buy a milk bottle, if they have eggs buy 6".')
+print('anto said "OK".')
+print('anto go to store')
+print('anto said "do you have a milk bottle?".')
+print('owner store said "yes, we have".')
 # done
 
 # belajar percabangan
-jumlah_botol_susu = 189
-jumlah_telur = 456
-if jumlah_botol_susu > 0:
-    print('anak membeli  1 botol susu')
+milk_bottle_count = 189
+egg_count = 456
+if milk_bottle_count > 1:
+    print('\nanto buy a milk bottle')
 else:
-    print('anak tidak jadi membeli 1 botol susu')
-print('anak bertanya, "apakah ada telur"?')
-print('pemilik toko menjawab, "ada".')
-if jumlah_telur > 0:
-    print('anak membeli 6 butir telur')
-print('anak pulang ke rumah')
-print('anak menyerahkan belanjaan kepada ibu')
+    print('anto not buy a milk bottle')
+print('anto ask, "do you have any eggs"?')
+print('owner store answer, "we have".')
+if egg_count > 0:
+    print('anto buy 6 eggs')
+else :
+    print('anto doesnt buy eggs')
+print('anto back to home')
+print('anto give the things to mom')
 # done

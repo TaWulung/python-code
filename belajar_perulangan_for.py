@@ -1,13 +1,12 @@
-"""
-perulangan_dengan_for
-"""
-Jumlah_buku = 13
-print('ibu berkata "baca semua bukumu".')
+# perulangan_dengan_for
 
-Jumlah_buku_yang_sudah_dibaca = 0
-print(f'Jumlah buku yang sudah dibaca {Jumlah_buku_yang_sudah_dibaca}')
+book_count = 7
+print('mom said "read all your books".')
 
-for Jumlah_buku_yang_sudah_dibaca in range(1, Jumlah_buku+1):
-    print(f'buku ke {Jumlah_buku_yang_sudah_dibaca} sudah dibaca')
+read_count = 0
+print(f'read count {read_count}')
 
-print(f'Jumlah buku yang sudah dibaca {Jumlah_buku_yang_sudah_dibaca}')
+for read_count in range(1,book_count+1):
+    print(f'book {read_count} read')
+
+print(f'read count {read_count}')

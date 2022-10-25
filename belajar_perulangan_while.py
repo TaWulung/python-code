@@ -1,14 +1,14 @@
 """"
 perulangan_dengan_while
 """
-Jumlah_buku = 13
-print('ibu berkata, "baca semua bukumu".')
+book_count = 7
+print('mom said "read all your books".')
 
-Jumlah_buku_yang_sudah_dibaca = 0
-print(f'Jumlah buku yang sudah dibaca {Jumlah_buku_yang_sudah_dibaca}')
+read_count = 0
+print(f'read count {read_count}')
 
-while Jumlah_buku_yang_sudah_dibaca < Jumlah_buku:
-    Jumlah_buku_yang_sudah_dibaca = Jumlah_buku_yang_sudah_dibaca + 1
-    print(f'buku ke {Jumlah_buku_yang_sudah_dibaca} sudah dibaca')
+while read_count < book_count:
+    read_count = read_count + 1
+    print(f'book {read_count} read')
 
-print(f'Jumlah buku yang sudah dibaca {Jumlah_buku_yang_sudah_dibaca}')
+print(f'read count {read_count}')
