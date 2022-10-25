@@ -1,6 +1,6 @@
 # perulangan_dengan_for
 
-book_count = 7
+book_count = 8
 print('mom said "read all your books".')
 
 read_count = 0
