@@ -11,7 +11,7 @@ print(daftar_film[-1])
 print(daftar_film[0])
 
 print('\ntampilkan dengan for in range')
-for k in range(0, len(daftar_film)):
+for k in range(1, len(daftar_film)):
     print(daftar_film[k])
 
 print('\ntambahkan 1 film baru')
@@ -26,13 +26,13 @@ for k in range(0, len(daftar_film)):
 
 print('\nganti nama film')
 daftar_film = ['Fury','300','Interstellar','The Pope']
-daftar_film[1] = 'Miracle in cell no. 7'
+daftar_film[2] = 'Miracle in cell no. 7'
 for k in range(0, len(daftar_film)):
     print(daftar_film[k])
 
 print('\nambil nama film')
-film = daftar_film.pop(1)
-for k in range(0, len(daftar_film)):
+film = daftar_film.pop(0)
+for k in range(2, len(daftar_film)):
     print(daftar_film[k])
 
 print('\nnama film yang diambil diatas')
